@@ -1,0 +1,14 @@
+{
+    "home": {
+        "sectionName" : "Home",
+        "path" :  "/"
+    },
+    "about": {
+        "sectionName": "About",
+        "path" : "/about/3/year"
+    },
+    "aboutnoyear": {
+        "sectionName": "About No Year",
+        "path" : "/about/3"
+    }
+}
