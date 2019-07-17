@@ -16,7 +16,7 @@ class home extends React.Component {
       <div>
         <ul>
           {this.state.movies.map ((movie, idx) => {
-            return <li key={idx}><Link to={"/viewMovie/" + idx}>{movie.name} {movie.director} ({movie.year})</Link></li>
+            return <li key={idx}><Link to={"/viewMovie/" + idx}>{movie.name}</Link> - {movie.director} ({movie.year})</li>
           })}
         </ul>
         

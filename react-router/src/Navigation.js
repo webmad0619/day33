@@ -7,8 +7,8 @@ const Navigation = () => {
     return (
         <nav>
             <ul>
-                <li><Link to={paths.home.path}>{paths.home.sectionName}</Link></li>
-                <li><Link to="/about/3/year">Acerca de....</Link></li>
+                <li><Link to={paths.movies.path}>{paths.movies.sectionName}</Link></li>
+                <li><Link to={paths.calculator.path}>{paths.calculator.sectionName}</Link></li>
                 {/* <li><Link to={paths.aboutnoyear.path}>{paths.aboutnoyear.sectionName}</Link></li> */}
             </ul>
         </nav>

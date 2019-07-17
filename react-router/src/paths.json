@@ -1,14 +1,10 @@
 {
-    "home": {
-        "sectionName" : "Home",
-        "path" :  "/"
+    "movies": {
+        "sectionName" : "Movies",
+        "path" :  "/movies"
     },
-    "about": {
-        "sectionName": "About",
-        "path" : "/about/3/year"
-    },
-    "aboutnoyear": {
-        "sectionName": "About No Year",
-        "path" : "/about/3"
+    "calculator": {
+        "sectionName": "Calculator",
+        "path" : "/calculator"
     }
 }
